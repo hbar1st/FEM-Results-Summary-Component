@@ -2,11 +2,11 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-body {
+main, body {
   margin: 0px;
 }
 
-html, body, div, span {
+html, body, main, div, span {
   font-size: 18px;
   font-family: 'Hanken Grotesk', serif;
   font-weight: 500;
@@ -156,8 +156,7 @@ button {
   background-color:hsla(0, 100%, 67%, .06);
 }
 
-html {
-  background-color: hsl(221, 100%, 96%);
+body {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -186,7 +185,7 @@ html {
 }
 @media (min-width: 376px) {
 
-  body {
+  main {
     background-color: hsl(0, 0%, 100%);
     border-radius: 10%;
     display: flex;
@@ -194,7 +193,7 @@ html {
     justify-content: center;
     margin: auto;
     vertical-align: middle;
-    
+    box-shadow:  5px 5px 5px hsl(221, 100%, 96%);
   }
   .summary > div {
     border-radius: inherit;
@@ -210,10 +209,10 @@ html {
 }
 
 @media (max-width: 375px) {
-  html {
+  body {
     display: block;
   }
-  body {
+  main {
     display: flex;
     flex-direction: column;
     margin: 0px;
