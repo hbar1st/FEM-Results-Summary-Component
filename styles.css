@@ -121,8 +121,14 @@ button {
   font-size: smaller;
 }
 
+.box span {
+  display: flex;
+  justify-content: space-between;
+}
+
 .box span:first-child {
   font-size: inherit;
+  margin-right: 5px;
 }
 
 .box span:last-child {
