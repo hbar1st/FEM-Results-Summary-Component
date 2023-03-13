@@ -1,0 +1,229 @@
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+  margin: 0px;
+}
+
+html, body, div, span {
+  font-size: 18px;
+  font-family: 'Hanken Grotesk', serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.column {
+  letter-spacing: normal;
+  min-width: 50%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+button:hover {
+  background: linear-gradient(hsla(256, 72%, 46%, 0.9), hsla(241, 72%, 46%, .9) 50%);
+  border: none;
+}
+
+button {
+  border-radius: 25px;
+  background-color:  hsl(224, 30%, 27%);
+  color: hsl(0, 0%, 100%);
+  width: 90%;
+  border: none;
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 45px;
+  box-sizing: border-box;
+  padding: 15px 15px;
+  font-size: small;
+  letter-spacing: 1px;
+}
+
+.summary * {
+  font-size: 1em;
+  letter-spacing: normal;
+}
+
+.summary div div:last-child {
+  font-size: 13px;
+  font-family: inherit;
+  max-width: 66%;
+  width: 66%;
+  letter-spacing: normal;
+}
+.summary > div {
+  font-family: inherit;
+  letter-spacing: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px auto 0px auto;
+  background: linear-gradient(hsla(256, 72%, 46%, 0.9), hsla(241, 72%, 46%, .9) 50%);
+  color:hsl(241, 100%, 89%);
+  border-radius: 0px 0px 10% 10%;
+  padding: 15px 0px;
+  min-width: 50%;
+}
+
+.left {
+  float: left;
+  font: inherit;
+  font-size: inherit;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-weight: 800;
+  letter-spacing: normal;
+}
+.circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: linear-gradient( hsla(224, 30%, 27%, 0.4), hsla(241, 72%, 46%, .2), hsla(241, 72%, 46%, .1));
+  width: 8rem;
+  height: 8rem;
+
+}
+.center {
+  text-align: center;
+}
+.white {
+  color: hsl(0, 0%, 100%);
+}
+
+.box {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 5px;
+  padding: 15px 15px 15px 15px;
+  font-weight: 400;
+  margin: 15px auto 0px auto;
+  font-size: smaller;
+}
+
+.box span:first-child {
+  margin-right: 10px;
+  font-size: inherit;
+}
+
+.box span:last-child {
+  font-weight: 700;
+  color: hsla(245, 23%, 11%, 0.5);
+  font-size: inherit;
+}
+.box span:last-child span {
+  color: black;
+}
+
+.yellow span:first-child {
+  color: hsl(39, 100%, 56%, .8);
+}
+
+.yellow {
+  background-color:hsla(39, 100%, 56%, .06);
+}
+
+.cyan span:first-child {
+  color: hsl(166, 100%, 37%, .8);
+}
+
+.cyan {
+  background-color:hsla(166, 100%, 37%, .06);
+}
+
+.blue span:first-child {
+  color: hsl(234, 85%, 45%, .8);
+}
+
+.blue {
+  background-color:hsla(234, 85%, 45%, .06);
+}
+
+.red span:first-child {
+  color: hsl(0, 100%, 67%, .8);
+}
+
+.red {
+  background-color:hsla(0, 100%, 67%, .06);
+}
+
+html {
+  background-color: hsl(221, 100%, 96%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.vcenter {
+  border-radius: inherit;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px;
+}
+
+.white strong {
+  font-size: 24px;
+}
+.largest strong {
+  font-size: 40px;
+}
+.circle.center {
+  font-size: 14px;
+}
+@media (min-width: 376px) {
+
+  body {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10%;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    margin: auto;
+    vertical-align: middle;
+    
+  }
+  .summary > div {
+    border-radius: inherit;
+  }
+  .summary {
+    border-radius: inherit;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 375px) {
+  html {
+    display: block;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+  }
+  .summary {
+    margin: 0px;
+  }
+  .vcenter {
+    height: 15em;
+    justify-content: space-around;
+  }
+}
