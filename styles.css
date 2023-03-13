@@ -2,6 +2,16 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+
 main, body {
   margin: 0px;
 }
@@ -112,7 +122,6 @@ button {
 }
 
 .box span:first-child {
-  margin-right: 10px;
   font-size: inherit;
 }
 
@@ -194,7 +203,7 @@ body {
     justify-content: center;
     margin: auto;
     vertical-align: middle;
-    box-shadow:  10px 10px 10px hsl(221, 100%, 96%);
+    box-shadow:  10px 10px 20px hsl(221, 100%, 96%);
   }
   .summary > div {
     border-radius: inherit;
