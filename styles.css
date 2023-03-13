@@ -11,6 +11,7 @@ html, body, main, div, span {
   font-family: 'Hanken Grotesk', serif;
   font-weight: 500;
   letter-spacing: 1px;
+  box-sizing: border-box;
 }
 
 .column {
@@ -63,7 +64,7 @@ button {
   flex-direction: column;
   align-items: center;
   margin: 0px auto 0px auto;
-  background: linear-gradient(hsla(256, 72%, 46%, 0.9), hsla(241, 72%, 46%, .9) 50%);
+  background: linear-gradient(hsla(256, 72%, 46%, 0.8), hsla(241, 72%, 46%, .8) 50%);
   color:hsl(241, 100%, 89%);
   border-radius: 0px 0px 10% 10%;
   padding: 15px 0px;
@@ -193,7 +194,7 @@ body {
     justify-content: center;
     margin: auto;
     vertical-align: middle;
-    box-shadow:  5px 5px 5px hsl(221, 100%, 96%);
+    box-shadow:  10px 10px 10px hsl(221, 100%, 96%);
   }
   .summary > div {
     border-radius: inherit;
