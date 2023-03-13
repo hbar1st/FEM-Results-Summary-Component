@@ -6,7 +6,7 @@
 .material-symbols-outlined {
   font-variation-settings:
   'FILL' 0,
-  'wght' 400,
+  'wght' 800,
   'GRAD' 0,
   'opsz' 48
 }
@@ -74,7 +74,7 @@ button {
   flex-direction: column;
   align-items: center;
   margin: 0px auto 0px auto;
-  background: linear-gradient(hsla(256, 72%, 46%, 0.8), hsla(241, 72%, 46%, .8) 50%);
+  background: linear-gradient( hsla(241, 81%, 54%, .8) , hsla(241, 81%, 54%, .9) 50%);
   color:hsl(241, 100%, 89%);
   border-radius: 0px 0px 10% 10%;
   padding: 15px 0px;
